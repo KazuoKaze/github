@@ -1,0 +1,31 @@
+# ## Disconected Graph:
+
+# graph.add_edge(0, 1)
+# graph.add_edge(2, 3)
+# graph.add_edge(4, 5)
+# graph.bfs_disconnected()
+
+
+# ## Connected Component:
+
+# graph = Graph(6)
+# graph.add_edge(0, 1)
+# graph.add_edge(2, 3)
+# graph.add_edge(4, 5)
+# print(graph.connected_components())  # Output: [[0, 1], [2, 3], [4, 5]]
+
+
+# ## Shortest Path
+
+# graph = Graph(10)
+# graph.add_edge(0, 1)
+# graph.add_edge(1, 2)
+# graph.add_edge(1, 8)
+# graph.add_edge(1, 7)
+# graph.add_edge(1, 6)
+# graph.add_edge(2, 3)
+# graph.add_edge(3, 4)
+# graph.add_edge(3, 8)
+# graph.add_edge(3, 9)
+# graph.add_edge(4, 5)
+# print(graph.shortest_path(0, 5))
